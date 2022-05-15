@@ -1,0 +1,11 @@
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\helper\bin\Debug\netcoreapp3.1\helper.deps.json
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\helper\bin\Debug\netcoreapp3.1\helper.dll
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\helper\bin\Debug\netcoreapp3.1\helper.pdb
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\helper\obj\Debug\netcoreapp3.1\helper.csproj.AssemblyReference.cache
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\helper\obj\Debug\netcoreapp3.1\helper.csproj.ResolveComReference.cache
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\helper\obj\Debug\netcoreapp3.1\helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\helper\obj\Debug\netcoreapp3.1\helper.AssemblyInfoInputs.cache
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\helper\obj\Debug\netcoreapp3.1\helper.AssemblyInfo.cs
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\helper\obj\Debug\netcoreapp3.1\helper.csproj.CoreCompileInputs.cache
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\helper\obj\Debug\netcoreapp3.1\helper.dll
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\helper\obj\Debug\netcoreapp3.1\helper.pdb

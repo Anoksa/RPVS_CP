@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonCurve", "DragonCurve\DragonCurve.csproj", "{EAA1179C-F821-4B3B-B9A9-D18B796DBE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helper", "helper\helper.csproj", "{4E258AB2-6F0B-4337-BD50-658A1E82239D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAA1179C-F821-4B3B-B9A9-D18B796DBE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA1179C-F821-4B3B-B9A9-D18B796DBE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA1179C-F821-4B3B-B9A9-D18B796DBE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA1179C-F821-4B3B-B9A9-D18B796DBE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E258AB2-6F0B-4337-BD50-658A1E82239D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E258AB2-6F0B-4337-BD50-658A1E82239D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E258AB2-6F0B-4337-BD50-658A1E82239D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E258AB2-6F0B-4337-BD50-658A1E82239D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4BA641D-FC9B-4EF0-A2A2-9CC384519F53}
+	EndGlobalSection
+EndGlobal

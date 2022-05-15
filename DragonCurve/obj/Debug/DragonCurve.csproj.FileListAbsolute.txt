@@ -1,0 +1,16 @@
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\bin\Debug\DragonCurve.exe.config
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\bin\Debug\DragonCurve.exe
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\bin\Debug\DragonCurve.pdb
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\obj\Debug\DragonCurve.csproj.AssemblyReference.cache
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\obj\Debug\DragonCurve.Properties.Resources.resources
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\obj\Debug\DragonCurve.StartForm.resources
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\obj\Debug\DragonCurve.csproj.GenerateResource.cache
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\obj\Debug\DragonCurve.csproj.CoreCompileInputs.cache
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\obj\Debug\DragonCurve.exe
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\obj\Debug\DragonCurve.pdb
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\obj\Debug\DragonCurve.MainWindow.resources
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\bin\Debug\Xceed.Document.NET.dll
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\bin\Debug\Xceed.Words.NET.dll
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\obj\Debug\DragonCurve.csproj.CopyComplete
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\obj\Debug\DragonCurve.csproj.ResolveComReference.cache
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\DragonCurve\bin\Debug\MaterialSkin.dll
