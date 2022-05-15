@@ -35,20 +35,17 @@ namespace DragonCurve
             this.valueLable = new System.Windows.Forms.Label();
             this.drawBt = new System.Windows.Forms.Button();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.wordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.excelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wordToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.excelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.creditsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newVersionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thisVersionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.aboutProgramDragonCurveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.valueBar)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -67,7 +64,7 @@ namespace DragonCurve
             // 
             this.valueBar.Cursor = System.Windows.Forms.Cursors.Cross;
             this.valueBar.Location = new System.Drawing.Point(38, 238);
-            this.valueBar.Maximum = 15;
+            this.valueBar.Maximum = 13;
             this.valueBar.Minimum = 1;
             this.valueBar.Name = "valueBar";
             this.valueBar.Size = new System.Drawing.Size(261, 69);
@@ -97,43 +94,19 @@ namespace DragonCurve
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.saveAsToolStripMenuItem,
+            this.saveToolStripMenuItem,
             this.openToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
             this.fileToolStripMenuItem.Text = "File";
             // 
-            // saveAsToolStripMenuItem
+            // saveToolStripMenuItem
             // 
-            this.saveAsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.wordToolStripMenuItem,
-            this.excelToolStripMenuItem,
-            this.pictureToolStripMenuItem});
-            this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(185, 34);
-            this.saveAsToolStripMenuItem.Text = "Save as...";
-            // 
-            // wordToolStripMenuItem
-            // 
-            this.wordToolStripMenuItem.Name = "wordToolStripMenuItem";
-            this.wordToolStripMenuItem.Size = new System.Drawing.Size(167, 34);
-            this.wordToolStripMenuItem.Text = "Word";
-            this.wordToolStripMenuItem.Click += new System.EventHandler(this.wordToolStripMenuItem_Click);
-            // 
-            // excelToolStripMenuItem
-            // 
-            this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
-            this.excelToolStripMenuItem.Size = new System.Drawing.Size(167, 34);
-            this.excelToolStripMenuItem.Text = "Excel";
-            this.excelToolStripMenuItem.Click += new System.EventHandler(this.excelToolStripMenuItem_Click);
-            // 
-            // pictureToolStripMenuItem
-            // 
-            this.pictureToolStripMenuItem.Name = "pictureToolStripMenuItem";
-            this.pictureToolStripMenuItem.Size = new System.Drawing.Size(167, 34);
-            this.pictureToolStripMenuItem.Text = "Picture";
-            this.pictureToolStripMenuItem.Click += new System.EventHandler(this.pictureToolStripMenuItem_Click);
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // openToolStripMenuItem
             // 
@@ -141,7 +114,7 @@ namespace DragonCurve
             this.wordToolStripMenuItem1,
             this.excelToolStripMenuItem1});
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(185, 34);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.openToolStripMenuItem.Text = "Open";
             // 
             // wordToolStripMenuItem1
@@ -161,7 +134,7 @@ namespace DragonCurve
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(185, 34);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -175,30 +148,24 @@ namespace DragonCurve
             // aboutProgramToolStripMenuItem
             // 
             this.aboutProgramToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.creditsToolStripMenuItem,
             this.newVersionToolStripMenuItem,
-            this.thisVersionToolStripMenuItem});
+            this.thisVersionToolStripMenuItem,
+            this.aboutProgramDragonCurveToolStripMenuItem});
             this.aboutProgramToolStripMenuItem.Name = "aboutProgramToolStripMenuItem";
             this.aboutProgramToolStripMenuItem.Size = new System.Drawing.Size(153, 29);
             this.aboutProgramToolStripMenuItem.Text = "About program";
             // 
-            // creditsToolStripMenuItem
-            // 
-            this.creditsToolStripMenuItem.Name = "creditsToolStripMenuItem";
-            this.creditsToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
-            this.creditsToolStripMenuItem.Text = "Credits";
-            // 
             // newVersionToolStripMenuItem
             // 
             this.newVersionToolStripMenuItem.Name = "newVersionToolStripMenuItem";
-            this.newVersionToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
+            this.newVersionToolStripMenuItem.Size = new System.Drawing.Size(354, 34);
             this.newVersionToolStripMenuItem.Text = "New Version";
             this.newVersionToolStripMenuItem.Click += new System.EventHandler(this.newVersionToolStripMenuItem_Click);
             // 
             // thisVersionToolStripMenuItem
             // 
             this.thisVersionToolStripMenuItem.Name = "thisVersionToolStripMenuItem";
-            this.thisVersionToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
+            this.thisVersionToolStripMenuItem.Size = new System.Drawing.Size(354, 34);
             this.thisVersionToolStripMenuItem.Text = "This version";
             this.thisVersionToolStripMenuItem.Click += new System.EventHandler(this.thisVersionToolStripMenuItem_Click);
             // 
@@ -214,6 +181,13 @@ namespace DragonCurve
             this.menuStrip1.Size = new System.Drawing.Size(1299, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // aboutProgramDragonCurveToolStripMenuItem
+            // 
+            this.aboutProgramDragonCurveToolStripMenuItem.Name = "aboutProgramDragonCurveToolStripMenuItem";
+            this.aboutProgramDragonCurveToolStripMenuItem.Size = new System.Drawing.Size(354, 34);
+            this.aboutProgramDragonCurveToolStripMenuItem.Text = "About program Dragon Curve";
+            this.aboutProgramDragonCurveToolStripMenuItem.Click += new System.EventHandler(this.aboutProgramDragonCurveToolStripMenuItem_Click);
             // 
             // MainWindow
             // 
@@ -247,20 +221,17 @@ namespace DragonCurve
         private System.Windows.Forms.Label valueLable;
         private System.Windows.Forms.Button drawBt;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem wordToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pictureToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem wordToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem excelToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutProgramToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem creditsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newVersionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thisVersionToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem aboutProgramDragonCurveToolStripMenuItem;
     }
 }
 

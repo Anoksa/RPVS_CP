@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonCurve", "DragonCurve\DragonCurve.csproj", "{EAA1179C-F821-4B3B-B9A9-D18B796DBE76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helper", "helper\helper.csproj", "{4E258AB2-6F0B-4337-BD50-658A1E82239D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLib", "MyLib\MyLib.csproj", "{09B3CD46-0C02-40C4-8721-4251DCE0AD98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{EAA1179C-F821-4B3B-B9A9-D18B796DBE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAA1179C-F821-4B3B-B9A9-D18B796DBE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAA1179C-F821-4B3B-B9A9-D18B796DBE76}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4E258AB2-6F0B-4337-BD50-658A1E82239D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E258AB2-6F0B-4337-BD50-658A1E82239D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E258AB2-6F0B-4337-BD50-658A1E82239D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E258AB2-6F0B-4337-BD50-658A1E82239D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B3CD46-0C02-40C4-8721-4251DCE0AD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B3CD46-0C02-40C4-8721-4251DCE0AD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B3CD46-0C02-40C4-8721-4251DCE0AD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B3CD46-0C02-40C4-8721-4251DCE0AD98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

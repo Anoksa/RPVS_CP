@@ -53,6 +53,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutProgram.Designer.cs">
+      <DependentUpon>AboutProgram.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     <Compile Include="StartForm.Designer.cs">
       <DependentUpon>StartForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AboutProgram.resx">
+      <DependentUpon>AboutProgram.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +133,15 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyLib\MyLib.csproj">
+      <Project>{09b3cd46-0c02-40c4-8721-4251dce0ad98}</Project>
+      <Name>MyLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
