@@ -12,7 +12,7 @@ using Xceed.Words.NET;
 using Image = Xceed.Document.NET.Image;
 using Excel = Microsoft.Office.Interop.Excel;
 using MyLib;
-
+using System.IO;
 
 namespace DragonCurve
 {
@@ -207,6 +207,29 @@ namespace DragonCurve
         {
             AboutProgram pr = new AboutProgram();
             pr.Show();
+        }
+
+
+        private void MainWindow_Load(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Загрузить предыдущее сохранение?", "Загрузка",
+                                                        MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                valueBar.Value = Properties.Settings.Default.Value;
+                valueLable.Text = "Value: " + valueBar.Value.ToString();
+            }
+        }
+
+        private void MainWindow_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+            if(MessageBox.Show("Сохраненить данные?", "Загрузка",
+                                      MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                Properties.Settings.Default.Value = valueBar.Value;
+                Properties.Settings.Default.Save();
+
+            }
         }
     }
 }

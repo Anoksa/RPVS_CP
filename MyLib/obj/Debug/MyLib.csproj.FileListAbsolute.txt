@@ -3,3 +3,4 @@ C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\MyLib\bin\De
 C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\MyLib\obj\Debug\MyLib.csproj.CoreCompileInputs.cache
 C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\MyLib\obj\Debug\MyLib.dll
 C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\MyLib\obj\Debug\MyLib.pdb
+C:\univer\2 курс\2 сем\рпвс\курсовая\DragonCurve\MyLib\obj\Debug\MyLib.csproj.AssemblyReference.cache

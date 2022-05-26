@@ -44,8 +44,8 @@ namespace DragonCurve
             this.aboutProgramToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newVersionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thisVersionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aboutProgramDragonCurveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.valueBar)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -104,7 +104,7 @@ namespace DragonCurve
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(158, 34);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -114,7 +114,7 @@ namespace DragonCurve
             this.wordToolStripMenuItem1,
             this.excelToolStripMenuItem1});
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(158, 34);
             this.openToolStripMenuItem.Text = "Open";
             // 
             // wordToolStripMenuItem1
@@ -134,7 +134,7 @@ namespace DragonCurve
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(158, 34);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -169,6 +169,13 @@ namespace DragonCurve
             this.thisVersionToolStripMenuItem.Text = "This version";
             this.thisVersionToolStripMenuItem.Click += new System.EventHandler(this.thisVersionToolStripMenuItem_Click);
             // 
+            // aboutProgramDragonCurveToolStripMenuItem
+            // 
+            this.aboutProgramDragonCurveToolStripMenuItem.Name = "aboutProgramDragonCurveToolStripMenuItem";
+            this.aboutProgramDragonCurveToolStripMenuItem.Size = new System.Drawing.Size(354, 34);
+            this.aboutProgramDragonCurveToolStripMenuItem.Text = "About program Dragon Curve";
+            this.aboutProgramDragonCurveToolStripMenuItem.Click += new System.EventHandler(this.aboutProgramDragonCurveToolStripMenuItem_Click);
+            // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
@@ -181,13 +188,6 @@ namespace DragonCurve
             this.menuStrip1.Size = new System.Drawing.Size(1299, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // aboutProgramDragonCurveToolStripMenuItem
-            // 
-            this.aboutProgramDragonCurveToolStripMenuItem.Name = "aboutProgramDragonCurveToolStripMenuItem";
-            this.aboutProgramDragonCurveToolStripMenuItem.Size = new System.Drawing.Size(354, 34);
-            this.aboutProgramDragonCurveToolStripMenuItem.Text = "About program Dragon Curve";
-            this.aboutProgramDragonCurveToolStripMenuItem.Click += new System.EventHandler(this.aboutProgramDragonCurveToolStripMenuItem_Click);
             // 
             // MainWindow
             // 
@@ -205,6 +205,8 @@ namespace DragonCurve
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dragon Curve";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWindow_FormClosing);
+            this.Load += new System.EventHandler(this.MainWindow_Load);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.MainWindow_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.valueBar)).EndInit();
