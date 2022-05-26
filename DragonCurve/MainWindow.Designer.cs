@@ -46,6 +46,8 @@ namespace DragonCurve
             this.thisVersionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutProgramDragonCurveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.dragonFractal = new System.Windows.Forms.RadioButton();
+            this.dragonCurve = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.valueBar)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -75,7 +77,7 @@ namespace DragonCurve
             // valueLable
             // 
             this.valueLable.AutoSize = true;
-            this.valueLable.Location = new System.Drawing.Point(127, 124);
+            this.valueLable.Location = new System.Drawing.Point(135, 177);
             this.valueLable.Name = "valueLable";
             this.valueLable.Size = new System.Drawing.Size(67, 20);
             this.valueLable.TabIndex = 3;
@@ -189,11 +191,35 @@ namespace DragonCurve
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // dragonFractal
+            // 
+            this.dragonFractal.AutoSize = true;
+            this.dragonFractal.Location = new System.Drawing.Point(38, 60);
+            this.dragonFractal.Name = "dragonFractal";
+            this.dragonFractal.Size = new System.Drawing.Size(123, 24);
+            this.dragonFractal.TabIndex = 5;
+            this.dragonFractal.Text = "First Method";
+            this.dragonFractal.UseVisualStyleBackColor = true;
+            // 
+            // dragonCurve
+            // 
+            this.dragonCurve.AutoSize = true;
+            this.dragonCurve.Checked = true;
+            this.dragonCurve.Location = new System.Drawing.Point(38, 108);
+            this.dragonCurve.Name = "dragonCurve";
+            this.dragonCurve.Size = new System.Drawing.Size(147, 24);
+            this.dragonCurve.TabIndex = 6;
+            this.dragonCurve.TabStop = true;
+            this.dragonCurve.Text = "Second Method";
+            this.dragonCurve.UseVisualStyleBackColor = true;
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1299, 729);
+            this.Controls.Add(this.dragonCurve);
+            this.Controls.Add(this.dragonFractal);
             this.Controls.Add(this.drawBt);
             this.Controls.Add(this.valueLable);
             this.Controls.Add(this.valueBar);
@@ -234,6 +260,8 @@ namespace DragonCurve
         private System.Windows.Forms.ToolStripMenuItem thisVersionToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem aboutProgramDragonCurveToolStripMenuItem;
+        private System.Windows.Forms.RadioButton dragonFractal;
+        private System.Windows.Forms.RadioButton dragonCurve;
     }
 }
 
